@@ -30,5 +30,10 @@ public class LoginPageSteps {
 	public void validate_error_message() {
 		Assert.assertTrue(login.validateErrorMessage());
 	}
+	
+	/*@Then ("validate noerror message")
+	public void validate_error_message() {               for github purpose
+		Assert.assertTrue(login.validateErrorMessage());
+	} */
 
 }
